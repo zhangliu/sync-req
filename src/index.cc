@@ -41,7 +41,7 @@ void Zip(const FunctionCallbackInfo<Value> &args)
 void Initialize(Local<Object> exports)
 {
   NODE_SET_METHOD(exports, "upload", Upload);
-  NODE_SET_METHOD(exports, "zip", Zip);
+  // NODE_SET_METHOD(exports, "zip", Zip);
 }
 
 NODE_MODULE(NODE_GYP_MODULE_NAME, Initialize)
