@@ -1,0 +1,21 @@
+{
+  "name": "sync-req",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd src && node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangliu/sync-req.git"
+  },
+  "author": "zhangliu",
+  "license": "ISC",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/zhangliu/sync-req/issues"
+  },
+  "homepage": "https://github.com/zhangliu/sync-req#readme",
+  "description": ""
+}

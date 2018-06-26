@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.wpy": "vue",
+    "__locale": "cpp",
+    "sstream": "cpp"
+  }
+}
